@@ -1,0 +1,31 @@
+Training: (49000, 11) Test: (21000, 11)
+Baseline training loss: 0.6233783659085942
+Modified training loss: 0.5607727151932743
+
+ Baseline
+Training loss: 0.623378
+Test loss: 0.630319
+Test accuracy: 64.49 %
+ROC AUC: 0.7009
+Output weights: [ 0.316636 -0.769559  0.327361  0.299062  0.203083 -0.421964]
+Output bias: 0.184786
+Loss at update 100: 0.670721
+First update below loss 0.60: None
+
+ Adam + L2 + dropout
+Training loss: 0.560773
+Test loss: 0.568768
+Test accuracy: 72.45 %
+ROC AUC: 0.7839
+Output weights: [ 0.307721 -1.660547  0.214375  0.219173 -0.948773 -1.480571]
+Output bias: 0.942918
+Loss at update 100: 0.606411
+First update below loss 0.60: 115
+Baseline
+Clean: 64.49 %
+With noise: 64.29 %
+Drop: 0.2 percentage points
+Adam + L2 + dropout
+Clean: 72.45 %
+With noise: 66.98 %
+Drop: 5.47 percentage points

@@ -1,0 +1,2 @@
+srun: error: gpu02.slurm.cpe.kmutt.ac.th: task 0: Exited with exit code 2
+slurmstepd-gpu02.slurm.cpe.kmutt.ac.th: error: execve(): /storage/slurm/home/68070701622@cpe.kmutt.ac.th/deep_learning/src/lab5/.venv/bin/python: No such file or directory
